@@ -9,32 +9,22 @@ body{
         gap: 1rem;
         grid-template-columns: repeat(3, 1fr);
     }
-    .asset img{
-        width: 100%;
-    }
 }
-/* .asset img{
+.asset img{
     width: 100%;
-} */
+}
 @media (max-width: 1024px){
     .list{
         display: grid;
         gap: 1rem;
+        /* overflow-x: scroll; */
+        /* white-space: nowrap; */
+        grid-template-columns: 1fr 1fr;
     }
-    .card{
-        display: flex;
-        justify-content: space-between;
-    }
-    .asset img{
-        width: 100px;
-        height: 100%;
-        object-fit: cover;
-        border-top-left-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-    }
-    .content{
-        width: 100%;
-    }
+    /* .card{
+        width: 300px;
+    } */
+   
 }
 .card{
     border-radius: 1rem;
